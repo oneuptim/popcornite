@@ -1,0 +1,111 @@
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  /* animation: App-logo-spin infinite 20s linear; */
+  height: 80px;
+}
+
+.App-header {
+  background-color: #000;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.Primary-btn {
+  padding: 10px 20px;
+  font-size: 14px;
+  background-color: #6155fb;
+  color: #fff;
+  text-transform: uppercase;
+  border: none;
+}
+
+input[type="text"], input[type="password"], textarea, select { 
+  outline: none;
+}
+
+.text-input {
+  padding: 8px 7px;
+  font-size: 14px;
+  margin-top: 30px;
+  width: 29%;
+}
+
+.results-container {
+  width: 50%;
+  max-width: 850px;
+  margin: 0 auto;
+}
+.movie-list {
+  margin-top: 40px;
+  background: #f8f8f8;
+  padding: 10px 20px 40px 20px;
+  min-height: 300px;
+}
+.poster-container {
+  width: 200px;
+  float: left;
+  margin-top: 10px;
+}
+.poster-image {
+  width: 200px;
+}
+.movie-info {
+  text-align: left;
+  margin-left: 230px;
+  font-size: 14px;
+  /* margin-top: 30px; */
+}
+.search-dropdown {
+  background: #fff;
+  width: 29.55%;
+  margin: -16px auto;
+  border: 1px solid #D1D1D1;
+  margin-bottom: 42px;  
+}
+.search-dropdown ul {
+  list-style-type: none; 
+  margin-top: 0;
+  padding-top: 15px;  
+}
+
+.search-dropdown li {
+  text-align: left;
+  margin-left: -40px;
+  padding: 10px 10px;
+  font-size: 13px;
+  color: #9d9d9d;
+  font-weight: 100;
+}
+
+.search-dropdown li:hover {
+  background: #f1f3f3;
+  cursor: pointer;
+}
+
+.search { position: relative; }
+.search .fa-search { 
+  position: absolute;
+  top: 24px;
+  font-size: 15px;
+  margin-left: -25px;
+  margin-top: 16px;
+  color: #7e8188;
+}
