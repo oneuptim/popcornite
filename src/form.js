@@ -3,6 +3,7 @@ import axios from 'axios';
 import { BASE_URL, API_KEY, POSTER_API } from './constants/api';
 import MoviesList from './movies-list';
 import SearchDropdown from './search-dropdown';
+import { Input } from 'antd';
 import './App.css';
 
 export default class Form extends Component {
@@ -84,10 +85,11 @@ export default class Form extends Component {
   //   }
   // }
   
-  render() {
+  render(mountNode) {
     if(this.state.movies) {
       return (
         <div>
+
           <form className="search" onSubmit={this.handleSubmit}>
             <input 
               type="text"
